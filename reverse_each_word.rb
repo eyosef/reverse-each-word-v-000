@@ -5,6 +5,5 @@ sentence1 = ["Hello there, and how are you?"]
 # end #method
 
 def reverse_each_word (sentence1)
-    sentence1.each do |sentence1|
-    end #each
+    sentence1.collect{|sentence1|}
 end #method
