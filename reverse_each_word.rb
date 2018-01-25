@@ -6,7 +6,5 @@ sentence1 = ["Hello there, and how are you?"]
 # end #mjethod
 
 def reverse_each_word (sentence1)
-  binding.pry
-    sentence1.split.collect.reverse().split(" ").reverse().join(" ")
     sentence1.split.collect{|string| string.reverse()}.join(" ")
 end #method
